@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Imports System.Resources
+
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,13 +11,13 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("PayDay")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyDescription("Software de Planilla")> 
+<Assembly: AssemblyCompany("Joel Nieto")> 
 <Assembly: AssemblyProduct("PayDay")> 
 <Assembly: AssemblyCopyright("Copyright ©  2013")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("e633a9b4-f37a-4ba5-9606-ea57ee91c5c3")> 
@@ -33,3 +35,5 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("es-PA")> 

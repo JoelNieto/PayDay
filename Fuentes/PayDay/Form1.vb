@@ -1,3 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmHome
+
 
 End Class
