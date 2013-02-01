@@ -1,0 +1,13 @@
+C:\Fuentes\PayDay\Fuentes\PayDay\bin\Debug\PayDay.exe.config
+C:\Fuentes\PayDay\Fuentes\PayDay\bin\Debug\PayDay.exe
+C:\Fuentes\PayDay\Fuentes\PayDay\bin\Debug\PayDay.pdb
+C:\Fuentes\PayDay\Fuentes\PayDay\bin\Debug\PayDay.xml
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.frmHome.resources
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.frmLogin.resources
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.Resources.resources
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.exe
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.xml
+C:\Fuentes\PayDay\Fuentes\PayDay\obj\x86\Debug\PayDay.pdb

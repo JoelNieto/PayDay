@@ -22,11 +22,13 @@ Partial Class frmHome
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.butReportes = New System.Windows.Forms.Button()
         Me.butAjustes = New System.Windows.Forms.Button()
         Me.butPlanilla = New System.Windows.Forms.Button()
         Me.butColaboradores = New System.Windows.Forms.Button()
+        Me.tipHome = New System.Windows.Forms.ToolTip(Me.components)
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -43,7 +45,7 @@ Partial Class frmHome
         '
         'butReportes
         '
-        Me.butReportes.BackColor = System.Drawing.Color.Gold
+        Me.butReportes.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.butReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.butReportes.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.butReportes.ForeColor = System.Drawing.Color.White
@@ -55,11 +57,12 @@ Partial Class frmHome
         Me.butReportes.TabIndex = 3
         Me.butReportes.Text = "Reportes"
         Me.butReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.tipHome.SetToolTip(Me.butReportes, "Imprima Documentación y Reportes")
         Me.butReportes.UseVisualStyleBackColor = False
         '
         'butAjustes
         '
-        Me.butAjustes.BackColor = System.Drawing.Color.ForestGreen
+        Me.butAjustes.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.butAjustes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.butAjustes.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.butAjustes.ForeColor = System.Drawing.Color.White
@@ -71,11 +74,12 @@ Partial Class frmHome
         Me.butAjustes.TabIndex = 2
         Me.butAjustes.Text = "Ajustes"
         Me.butAjustes.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.tipHome.SetToolTip(Me.butAjustes, "Ajustes Generales del Sistema")
         Me.butAjustes.UseVisualStyleBackColor = False
         '
         'butPlanilla
         '
-        Me.butPlanilla.BackColor = System.Drawing.Color.IndianRed
+        Me.butPlanilla.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.butPlanilla.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.butPlanilla.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.butPlanilla.ForeColor = System.Drawing.Color.White
@@ -87,11 +91,12 @@ Partial Class frmHome
         Me.butPlanilla.TabIndex = 1
         Me.butPlanilla.Text = "Día de Pago"
         Me.butPlanilla.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.tipHome.SetToolTip(Me.butPlanilla, "Ejecución de Pagos")
         Me.butPlanilla.UseVisualStyleBackColor = False
         '
         'butColaboradores
         '
-        Me.butColaboradores.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.butColaboradores.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.butColaboradores.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.butColaboradores.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.butColaboradores.ForeColor = System.Drawing.Color.White
@@ -103,6 +108,7 @@ Partial Class frmHome
         Me.butColaboradores.TabIndex = 0
         Me.butColaboradores.Text = "Colaboradores"
         Me.butColaboradores.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.tipHome.SetToolTip(Me.butColaboradores, "Agregue, Edite y Consulte Colaboradores")
         Me.butColaboradores.UseVisualStyleBackColor = False
         '
         'frmHome
@@ -113,9 +119,10 @@ Partial Class frmHome
         Me.ClientSize = New System.Drawing.Size(702, 457)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Segoe UI Light", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmHome"
         Me.Text = "Inicio"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -125,5 +132,6 @@ Partial Class frmHome
     Friend WithEvents butPlanilla As System.Windows.Forms.Button
     Friend WithEvents butAjustes As System.Windows.Forms.Button
     Friend WithEvents butReportes As System.Windows.Forms.Button
+    Friend WithEvents tipHome As System.Windows.Forms.ToolTip
 
 End Class
